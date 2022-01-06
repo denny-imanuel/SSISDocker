@@ -8,13 +8,13 @@ This also shows how to build SSIS project via SSDT (SQL Server Data Tools) tools
 ### Requirement
 1. Visual Studio CE - Install Visual Studio Community Edition
 2. SSDT - Install SSDT (SQL Server Data Tools) tools on Visual Studio (Tools > Get Tools and Features)
-3. SSIS - Install SSAS (SQL Server Integration Services) extension on Visual Studio (Extension > Manage Extension)
+3. SSIS - Install SSIS (SQL Server Integration Services) extension on Visual Studio (Extension > Manage Extension)
 4. SSMS - Install SSMS (SQL Server Management Studio) on your Windows machine to connect to Docker Sql
 5. Docker Desktop - Install Docker Desktop for Windows on your Windows machine
 
 ### SSAS Container
 
-To spin up SSAS container right click Docker Desktop tray icon to show pop up menu and select "Switch to Windows Container". 
+To spin up SSIS container right click Docker Desktop tray icon to show pop up menu and select "Switch to Windows Container". 
 And then on Visual Studio terminal (View > Terminal) run Docker Compose command.
 
 > docker-compose up
