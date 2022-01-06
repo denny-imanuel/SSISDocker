@@ -12,7 +12,7 @@ This also shows how to build SSIS project via SSDT (SQL Server Data Tools) tools
 4. SSMS - Install SSMS (SQL Server Management Studio) on your Windows machine to connect to Docker Sql
 5. Docker Desktop - Install Docker Desktop for Windows on your Windows machine
 
-### SSAS Container
+### SSIS Container
 
 To spin up SSIS container right click Docker Desktop tray icon to show pop up menu and select "Switch to Windows Container". 
 And then on Visual Studio terminal (View > Terminal) run Docker Compose command.
@@ -21,7 +21,7 @@ And then on Visual Studio terminal (View > Terminal) run Docker Compose command.
 
 ![](jpg/main.jpg)
 
-### SSAS Connection
+### SSIS Connection
 
 After container running, first you need to connect to MSSQL Database Engine using SSMS with SQL Authentication
 
