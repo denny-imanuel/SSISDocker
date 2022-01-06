@@ -1,7 +1,7 @@
 # SSIS Docker
 by Denny Imanuel
 
-This mini project showcase how to spin up Microsoft SQL Server container with SSAS (SQL Server Integration Service) features. 
+This mini project showcase how to spin up Microsoft SQL Server container with SSIS (SQL Server Integration Service) features. 
 This also shows how to build SSIS project via SSDT (SQL Server Data Tools) tools in Visual Studio
 
 
@@ -27,10 +27,10 @@ After container running, first you need to connect to MSSQL Database Engine usin
 
 ![](jpg/mssql.jpg)
 
-Then add a login user with your Windows Authentication domain\username to allow you to login to SSAS.
+Then add a login user with your Windows Authentication domain\username to allow you to login to SSIS.
 
 ![](jpg/winauth.jpg)
 
-After that connect to SSAS Analytic Server using SSMS with Windows Authentication
+After that connect to SSIS Integration Server using SSMS with Windows Authentication
 
 ![](jpg/ssis.jpg)
